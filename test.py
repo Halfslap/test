@@ -7,8 +7,8 @@
 import pandas as pd
 import numpy as np
 # import matplot lib
-get_ipython().run_line_magic('matplotlib', 'inline')
-import matplotlib.pyplot as plt
+##%matplotlib inline
+##import matplotlib.pyplot as plt
 import streamlit as st
 
 
