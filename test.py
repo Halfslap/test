@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[6]:
 
 
 import pandas as pd
@@ -12,7 +12,7 @@ import numpy as np
 import streamlit as st
 
 
-# In[2]:
+# In[7]:
 
 
 ##st.text('Fixed width text')
@@ -27,19 +27,19 @@ import streamlit as st
 ##st.code('for i in range(8): foo()')
 
 
-# In[3]:
+# In[11]:
 
 
 # Import Data
-health_data = pd.read_csv("C:/Users/McLovin/.spyder-py3/New Data/oura_2019-01-01_2023-09-09_trends_Original.csv")
+health_data = pd.read_csv("New Data/oura_2019-01-01_2023-09-09_trends_Original.csv")
 
 
-# In[4]:
+# In[9]:
 
 
 health_data
 
 
-# In[5]:
+# In[10]:
 
 
